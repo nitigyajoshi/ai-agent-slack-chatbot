@@ -8,4 +8,5 @@
 
 # Also don’t ignore folders leading to these files (if inside folders)
 !*/
+git rm --cached .env
 
