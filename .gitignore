@@ -1,12 +1,2 @@
-# Ignore everything
-*
-
-# But do NOT ignore these files:
-!main.py
-!agent.py
-!requirements.txt
-
-# Also don’t ignore folders leading to these files (if inside folders)
-!*/
 git rm --cached .env
-
+git commit -m "Stop tracking .env file"
